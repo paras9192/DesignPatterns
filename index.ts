@@ -4,7 +4,7 @@ import { Samsung } from "./designPatterns/templateMethod";
 import { SingleTon } from "./designPatterns/singleton";
 
 const app = express();
-const port = parseInt(process.env.PORT) || process.argv[3] || 5000;
+const port = parseInt(process.env.PORT) || process.argv[3] || 6001;
 
 app.use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))
